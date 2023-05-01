@@ -1,7 +1,11 @@
+import HeaderSelector from "./HeaderSelector";
+import BodySelector from "./BodySelector";
+
 function Main() {
     return (
         <div>
-            Main body
+            <HeaderSelector/>
+            <BodySelector/>
         </div>
     )
 }
