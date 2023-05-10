@@ -25,13 +25,8 @@ const App: React.FC<{}> = React.memo(() => {
     const headerClick = ({item, key, keyPath, domEvent}: { item: any, key: any, keyPath: any, domEvent: any }) => {
         setPic1(key)
     }
-
     const sideClick = (item: any) => {
         setPic1(item.key)
-    }
-
-    function test() {
-
     }
 
     useEffect(() => {
@@ -40,7 +35,7 @@ const App: React.FC<{}> = React.memo(() => {
 
     return (
         <Layout>
-            <Content>
+            <Content style={{backgroundColor: 'red'}}>
                 <Layout>
                     <Header className="header">
                         <div className="logo"/>
@@ -66,7 +61,7 @@ const App: React.FC<{}> = React.memo(() => {
                     </Content>
                 </Layout>
             </Content>
-            <Footer style={{textAlign: 'center'}}>Write for my lovely little piggy</Footer>
+            <Footer style={{textAlign: 'center'}}></Footer>
         </Layout>
     );
 });
