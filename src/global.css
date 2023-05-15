@@ -1,0 +1,64 @@
+.ant-layout-header {
+    padding-inline: 50px;
+    color: rgba(0, 0, 0, 0.88);
+    background: none !important;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.ant-menu-horizontal {
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 55px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 16px;
+    display: flex;
+    flex: auto;
+    min-width: 0;
+}
+
+.ant-layout-sider-children {
+    height: 100%;
+    margin-top: -0.1px;
+    padding-top: 0.1px;
+    background: white;
+}
+
+.ant-row {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 0;
+    width: 100%;
+}
+
+.ant-image .ant-image-mask {
+    position: relative;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.content {
+    border: 1px solid;
+    height: 350px;
+    width: 400px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+
+.pic {
+
+}
+
+.info {
+    border: 1px solid;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
